@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<GenRoBag>
+	<db dbname="blv" implementation="sqlite" />
+
+	<packages>
+		<blv/>
+	</packages>
+
+	<authentication pkg="gnrcore:sys">
+		<py_auth defaultTags="user" method="authenticate" pkg="adm"/>
+	</authentication>
+</GenRoBag>
